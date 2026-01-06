@@ -3,6 +3,7 @@
  * 實作 CRUD 於 Google Sheets
  */
 
+/**
 function doGet() {
   return HtmlService.createTemplateFromFile('index')
     .evaluate()
@@ -88,3 +89,4 @@ function deleteAccount(username) {
   }
   return "刪除失敗。";
 }
+*\
